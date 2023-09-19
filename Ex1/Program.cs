@@ -1,20 +1,20 @@
 ﻿//Решение 1:
 
-// int a, b;
-// Console.Write("Введите число a: ");
-// while (!int.TryParse(Console.ReadLine(), out a))
-//     Console.WriteLine("Введите целое число");
-// Console.Write("Введите число b: ");
-// while (!int.TryParse(Console.ReadLine(), out b))
-//     Console.WriteLine("Введите целое число");
-// if (a > b)
-// {
-//     Console.WriteLine($"a = {a}, b = {b} -> max = {a}");
-// }
-// else
-// {
-//     Console.WriteLine($"a = {a}, b = {b} -> max = {b}");
-// }
+int a, b;
+Console.Write("Введите число a: ");
+while (!int.TryParse(Console.ReadLine(), out a))
+    Console.WriteLine("Введите целое число");
+Console.Write("Введите число b: ");
+while (!int.TryParse(Console.ReadLine(), out b))
+    Console.WriteLine("Введите целое число");
+if (a > b)
+{
+    Console.WriteLine($"a = {a}, b = {b} -> max = {a}");
+}
+else
+{
+    Console.WriteLine($"a = {a}, b = {b} -> max = {b}");
+}
 
 //Решение2
 
