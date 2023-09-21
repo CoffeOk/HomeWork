@@ -1,4 +1,8 @@
-﻿int a, b, c, max;
+﻿//1. Программа принимает на вход три числа
+//2. Программа показывает какое число меньшее
+
+
+int a, b, c, max;
 Console.Write("Введите число a: ");
 while (!int.TryParse(Console.ReadLine(), out a))
     Console.WriteLine("Введите целое число");
