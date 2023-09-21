@@ -3,7 +3,12 @@
 Console.Write("Введите целое число: ");
 while (!int.TryParse(Console.ReadLine(), out n))
     Console.Write("Данные не корректны, повторите ввод: ");
-for (i = 0; i <= n; i++)
+i = 0;
+while (i <= n)
+{
     if (i % 2 == 0)
-        Console.Write($"{i} ");
-
+    {
+       Console.Write($"{i} ");
+    }
+    i++;
+}
